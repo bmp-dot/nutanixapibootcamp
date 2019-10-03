@@ -1,7 +1,7 @@
-.. _api_vm_status:
+.. _api_vm_guest_customization:
 
 ----------------------
-API: VM Status
+API: VM Guest Customization
 ----------------------
 
 Overview
