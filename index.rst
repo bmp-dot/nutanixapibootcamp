@@ -2,12 +2,15 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Technology Overview
-  :name: _technology_overview
+  :caption: API Labs
+  :name: _api_labs
   :hidden:
 
-  what_is_nutanix/what_is_nutanix
-  nutanix_terminology/nutanix_terminology
+  api_create_vm/api_create_vm
+  api_vm_status/api_vm_status
+  api_image_list/api_image_list
+  api_update_vm/api_update_vm
+  api_delete_vm/api_delete_vm
 
 .. toctree::
   :maxdepth: 2
@@ -15,36 +18,7 @@
   :name: _nutanix_configuration
   :hidden:
 
-  lab_nutanix_tech_overview/lab_nutanix_tech_overview
-  lab_storage_configuration/lab_storage_configuration
-  lab_network_configuration/lab_network_configuration
 
-.. toctree::
-  :maxdepth: 2
-  :caption: Deploying and Managing Workloads
-  :name: _deploying_and_managing_workloads
-  :hidden:
-
-  backup_and_dr/backup_and_dr
-  lab_deploy_workloads/lab_deploy_workloads
-  lab_manage_workloads/lab_manage_workloads
-  lab_data_protection/lab_data_protection
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Security Compliance
-  :name: _security_compliance
-  :hidden:
-
-  lab_stig/lab_stig
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  .. lab_image_configuration/lab_image_configuration
 
 .. toctree::
   :maxdepth: 2
