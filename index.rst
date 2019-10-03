@@ -10,6 +10,7 @@
   api_vm_status/api_vm_status
   api_image_list/api_image_list
   api_update_vm/api_update_vm
+  api_vm_guest_customization/api_vm_guest_customization
   api_delete_vm/api_delete_vm
 
 .. toctree::
