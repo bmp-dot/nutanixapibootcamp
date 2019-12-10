@@ -39,6 +39,11 @@ Exercise 3: List the images on the cluster
 
 .. figure:: images/apimetajson.png
 
+7. Click Send to submit the v3 API call
+ - The intent response provides an array of image resources, similar to GET on one entity
+ - Note the uuid of the Ubuntu 16.10 Desktop image in the metadata section
+
+ .. figure:: images/imageuuid.png
 
 
 
