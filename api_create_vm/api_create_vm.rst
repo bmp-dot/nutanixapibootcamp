@@ -70,7 +70,7 @@ Copy or type the following JSON as the VM intent input
           "kind": "vm"
       }
   }
-
+  
   - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
   - Copy the validated spec from jsonlint and paste it in the Body section of postman.
   - Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
