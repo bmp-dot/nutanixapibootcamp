@@ -64,6 +64,24 @@ Exercise 4: Update your VM to mount an ISO and power on
 
   .. figure:: images/uuidupdateimage.png
 
+  8. Click **Send** to submit the v3 API call
+   - v3 intentful PUTs return a **202** on success to indicate that the intent was accepted
+   - While the response state is **PENDING**, the VM is being transformed to its final state
+   - With most APIs, powering on a VM and adding a disk is two calls. With v3, both operations (generally, any number of operations) can be accomplished with one **PUT**
+   - Because of this, v3 exposes dramatically fewer URLs, as all entity transformations can be requested intentfully by providing the entity spec via PUT on the URL for the entity
+
+   9. Get the status of your VM
+    - Click on the tab for **exercise 2** where you retrieved the status of your VM
+    - Click **Send** to repeat the **GET** to retrieve the latest information about your VM
+    - Once the **state** is COMPLETE, the **status** will reflect the changes made to your VM
+
+10. Check it out in the Prism UI
+ - Open a web browser to https://{{prism_central_ip}}:9440/console/
+ - Enter the Prism **Username** and **Password** displayed in your lab handout to log in
+ - Type the f key or click the search icon to open the search bar on the header
+ - Enter the name of your VM (hint: your Initials)
+ - Click on your VM in the table and click the **Launch Console** button under the table
+ - A window will appear with a graphical console to your VM, showing the Ubuntu installer
 
 
 Takeaways
