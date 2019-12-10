@@ -71,8 +71,10 @@ Copy or type the following JSON as the VM intent input
       }
   }
 
+7. Click Send to submit the v3 API call
+v3 provides a precise HTTP status and replies with the relevant intent response
 
-
+.. figure:: images/createresponse.png
 
 
 
