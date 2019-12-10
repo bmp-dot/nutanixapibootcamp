@@ -15,10 +15,11 @@ Words there
 
 Lab Setup
 +++++++++
-
+../
 Exercise 1: Create your own VM
 ++++++++++++++++++++
 1. Click + in the main window to create a new tab-window
+.. figure:: images/newtab.png
 
 2. Click the dropdown and select POST
 v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
