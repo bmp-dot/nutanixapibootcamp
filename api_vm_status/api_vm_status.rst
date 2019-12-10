@@ -36,7 +36,7 @@ The spec describes the final state desired by the user
  - The state attribute in the status section allows a user to know if the system has transformed the entity from its current state to the final state
  - If the state is PENDING instead of COMPLETE, click Send to get the VM again
 
-
+.. figure:: images/vmstatus.png
 
 
 Takeaways
