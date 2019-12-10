@@ -34,6 +34,7 @@ Exercise 3: List the images on the cluster
  - Copy or type an empty dictionary in the json body
 
 .. code-block:: bash
+
   {}
 
 
