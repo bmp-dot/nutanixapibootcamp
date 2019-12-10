@@ -23,6 +23,9 @@ Exercise 2: Get the status of your VM
  - Start with the URL from the previous exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
  - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response in Step 7 above.
 
+.. figure:: images/appendurl.png
+
+
 
 
 
