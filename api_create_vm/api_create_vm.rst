@@ -46,21 +46,21 @@ Copy or type the following JSON as the VM intent input
 
 .. code-block:: bash
 
-{
-    "spec": {
-        "name": "API-VM-{Initial}",
-        "resources": {
-            "num_vcpus_per_socket": 1,
-            "num_sockets": 1,
-            "memory_size_mib": 1024,
-            "power_state": "OFF"
-        }
-    },
-    "api_version": "3.0",
-    "metadata": {
-        "kind": "vm"
-    }
-}
+  {
+      "spec": {
+          "name": "API-VM-{Initial}",
+          "resources": {
+              "num_vcpus_per_socket": 1,
+              "num_sockets": 1,
+              "memory_size_mib": 1024,
+              "power_state": "OFF"
+          }
+      },
+      "api_version": "3.0",
+      "metadata": {
+          "kind": "vm"
+      }
+  }
 
 
 
