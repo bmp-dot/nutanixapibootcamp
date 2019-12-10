@@ -50,7 +50,7 @@ Check “Save helper data to request”
 .. figure:: images/jsonmediatype.png
 
 6. Fill out the body
-- Copy or type the following JSON as the VM intent input
+ - Copy or type the following JSON as the VM intent input
 
 .. code-block:: bash
 
