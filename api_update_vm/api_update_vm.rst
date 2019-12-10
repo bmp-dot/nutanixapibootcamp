@@ -26,6 +26,8 @@ Exercise 4: Update your VM to mount an ISO and power on
 
  .. figure:: images/updatevm.png
 
+ 4. Configure basic authentication for this API call
+  - Follow the same steps from exercise 1
 
 Takeaways
 +++++++++
