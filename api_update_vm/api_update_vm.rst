@@ -62,6 +62,8 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 - Replace {{uuid}} with the uuid of the Ubuntu image from **exercise 3**
 
+  .. figure:: images/uuidupdateimage.png
+
 
 
 Takeaways
