@@ -25,10 +25,14 @@ Exercise 1: Create your own VM
 2. Click the dropdown and select POST
 v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
 
+.. figure:: images/postfunction.png
+
 3. Enter the URL to create a VM
 https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
 Replace {{prism_central_ip}} with the IP address displayed in the lab handout.
 v3 exposes semantic URLs to make understanding and using the API easy
+
+.. figure:: images/urlcreate.png
 
 4. Configure basic authentication for this API call
 Click the Authorization tab and select Basic Auth from the Type dropdown
