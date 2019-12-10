@@ -21,12 +21,10 @@ Exercise 1: Create your own VM
 
 .. figure:: images/newtab.png
 
-
 2. Click the dropdown and select POST
 v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
 
 .. figure:: images/postfunction.png
-
 
 3. Enter the URL to create a VM
 https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
@@ -35,7 +33,6 @@ v3 exposes semantic URLs to make understanding and using the API easy
 
 .. figure:: images/urlcreate.png
 
-
 4. Configure basic authentication for this API call
 Click the Authorization tab and select Basic Auth from the Type dropdown
 Enter Prism credentials of the cluster :
@@ -43,11 +40,15 @@ Username : admin / Password : Use the “Prism login password” from handout
 Check “Save helper data to request”
 Click Update Request to set authorization in the request header
 
+.. figure:: images/basicauth.png
+
 5. Set the media type to application/json
 Click the Body tab
 Select the radio button for raw
 Click the Text dropdown and select JSON (application/json)
 Click the Headers tab and confirm the headers
+
+.. figure:: images/jsonmediatype.png
 
 6. Fill out the body
 Copy or type the following JSON as the VM intent input
