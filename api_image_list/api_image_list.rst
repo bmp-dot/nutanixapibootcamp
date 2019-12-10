@@ -37,7 +37,7 @@ Exercise 3: List the images on the cluster
 
   {}
 
-.. figure:: images/jsonmediatype.png
+.. figure:: images/apijsonmetajson.png
 
 
 
