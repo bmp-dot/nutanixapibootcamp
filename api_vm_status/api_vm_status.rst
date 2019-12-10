@@ -26,15 +26,15 @@ Exercise 2: Get the status of your VM
 .. figure:: images/appendurl.png
 
 4. Configure basic authentication for this API call
-- Follow the same steps from the previous exercise - (Step 4 from VM creation workflow)
-- v3 conforms to HTTP as a stateless protocol such that each API call is authenticated
+ - Follow the same steps from the previous exercise - (Step 4 from VM creation workflow)
+ - v3 conforms to HTTP as a stateless protocol such that each API call is authenticated
 
 5. Click Send to submit the v3 API call
-- The intent response contains two important sections:
+ - The intent response contains two important sections:
 The status exposes the current state of the entity
 The spec describes the final state desired by the user
-- The state attribute in the status section allows a user to know if the system has transformed the entity from its current state to the final state
-- If the state is PENDING instead of COMPLETE, click Send to get the VM again
+ - The state attribute in the status section allows a user to know if the system has transformed the entity from its current state to the final state
+ - If the state is PENDING instead of COMPLETE, click Send to get the VM again
 
 
 
