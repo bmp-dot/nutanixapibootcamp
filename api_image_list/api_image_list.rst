@@ -37,7 +37,7 @@ Exercise 3: List the images on the cluster
 
   {}
 
-.. figure:: images/apijsonmetajson.png
+.. figure:: images/apimetajson.png
 
 
 
