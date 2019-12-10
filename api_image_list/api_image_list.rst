@@ -51,3 +51,4 @@ Exercise 3: List the images on the cluster
 
 Takeaways
 +++++++++
+Nathan is cool
