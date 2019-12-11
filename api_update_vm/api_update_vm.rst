@@ -15,23 +15,34 @@ Words there
 
 Lab Setup
 +++++++++
+
 Exercise 4: Update your VM to mount an ISO and power on
 ++++++++++++++++++++
-1. Click + in the main window to create a new tab-window
-2. Click the dropdown and select PUT
+
+#. Click + in the main window to create a new tab-window
+
+#. Click the dropdown and select PUT
+
  - v3 uses PUT to allow the declaration of a spec that describes the new desired final state
-3. Enter the URL to update your VM
+
+#. Enter the URL to update your VM
+
  - Copy the URL used in the second exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms/{{uuid}}
  - Replace {{prism_central_ip}} with the IP address mentioned in the lab handout
 
  .. figure:: images/updatevm.png
 
- 4. Configure basic authentication for this API call
+ #. Configure basic authentication for this API call
+
   - Follow the same steps from exercise 1
   - v3 conforms to HTTP as a stateless protocol such that each API call is authenticated
-5. Set the media type to application/json
+
+#. Set the media type to application/json
+
  - Follow the same step 5 from **exercise 1**
-6. Fill out the body
+
+#. Fill out the body
+
  - Click on the tab for **exercise 2** where you retrieved the status of your VM
  - Copy the entire response
  - Click on the right-most tab for this exercise to update your VM
@@ -40,7 +51,8 @@ Exercise 4: Update your VM to mount an ISO and power on
 
   .. figure:: images/deletestatus.png
 
-7. Adjust the body to mount an ISO and power on
+#. Adjust the body to mount an ISO and power on
+
  - Change the power_state attribute from OFF to ON
  - Add a comma, enter a newline, and then copy or type the following disk list into the spec
 
@@ -64,18 +76,21 @@ Exercise 4: Update your VM to mount an ISO and power on
 
   .. figure:: images/uuidupdateimage.png
 
-8. Click **Send** to submit the v3 API call
+#. Click **Send** to submit the v3 API call
+
  - v3 intentful PUTs return a **202** on success to indicate that the intent was accepted
  - While the response state is **PENDING**, the VM is being transformed to its final state
  - With most APIs, powering on a VM and adding a disk is two calls. With v3, both operations (generally, any number of operations) can be accomplished with one **PUT**
  - Because of this, v3 exposes dramatically fewer URLs, as all entity transformations can be requested intentfully by providing the entity spec via PUT on the URL for the entity
 
-9. Get the status of your VM
+#. Get the status of your VM
+
  - Click on the tab for **exercise 2** where you retrieved the status of your VM
  - Click **Send** to repeat the **GET** to retrieve the latest information about your VM
  - Once the **state** is COMPLETE, the **status** will reflect the changes made to your VM
 
-10. Check it out in the Prism UI
+#. Check it out in the Prism UI
+
  - Open a web browser to https://{{prism_central_ip}}:9440/console/
  - Enter the Prism **Username** and **Password** displayed in your lab handout to log in
  - Type the f key or click the search icon to open the search bar on the header
@@ -86,3 +101,5 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 Takeaways
 +++++++++
+
+- Ben is cool too
