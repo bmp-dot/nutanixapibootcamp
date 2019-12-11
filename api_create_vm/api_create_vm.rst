@@ -19,68 +19,68 @@ Exercise 1: Create your own VM
 
 #. Click + in the main window to create a new tab-window
 
-.. figure:: images/newtab.png
+  .. figure:: images/newtab.png
 
 #. Click the dropdown and select POST
 
-  - v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
+    - v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
 
-.. figure:: images/postfunction.png
+  .. figure:: images/postfunction.png
 
 #. Enter the URL to create a VM
 
-  - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
-  - v3 exposes semantic URLs to make understanding and using the API easy
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
+    - v3 exposes semantic URLs to make understanding and using the API easy
 
-.. figure:: images/urlcreate.png
+  .. figure:: images/urlcreate.png
 
 #. Configure basic authentication for this API call
 
-- Click the **Authorization** tab and select **Basic Auth** from the Type dropdown
-- Enter Prism credentials of the cluster, and click **Update Request**:
-    - **Username** - admin
-    - **Password** - Use the “Prism login password” from handout
+    - Click the **Authorization** tab and select **Basic Auth** from the Type dropdown
+    - Enter Prism credentials of the cluster, and click **Update Request**:
+        - **Username** - admin
+        - **Password** - Use the “Prism login password” from handout
 
-.. figure:: images/basicauth.png
+  .. figure:: images/basicauth.png
 
 #. Set the media type to application/json
 
-- Click the Body tab
-- Select the radio button for raw
-- Click the Text dropdown and select JSON (application/json)
+    - Click the Body tab
+    - Select the radio button for raw
+    - Click the Text dropdown and select JSON (application/json)
 
-.. figure:: images/jsonmediatype.png
+  .. figure:: images/jsonmediatype.png
 
 #. Fill out the body
 
- - Copy or type the following JSON as the VM intent input
+    - Copy or type the following JSON as the VM intent input
 
-.. code-block:: bash
+    .. code-block:: bash
 
-  {
-      "spec": {
-          "name": "API-VM-{Initial}",
-          "resources": {
-              "num_vcpus_per_socket": 1,
-              "num_sockets": 1,
-              "memory_size_mib": 1024,
-              "power_state": "OFF"
-          }
-      },
-      "api_version": "3.0",
-      "metadata": {
-          "kind": "vm"
-      }
-  }
+        {
+            "spec": {
+                "name": "API-VM-{Initial}",
+                "resources": {
+                    "num_vcpus_per_socket": 1,
+                    "num_sockets": 1,
+                    "memory_size_mib": 1024,
+                    "power_state": "OFF"
+                }
+            },
+            "api_version": "3.0",
+            "metadata": {
+                "kind": "vm"
+            }
+        }
 
-- Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
-- Copy the validated spec from jsonlint and paste it in the Body section of postman.
-- Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
+  - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
+  - Copy the validated spec from jsonlint and paste it in the Body section of postman.
+  - Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
 
 #. Click Send to submit the v3 API call
 v3 provides a precise HTTP status and replies with the relevant intent response
 
-.. figure:: images/createresponse.png
+  .. figure:: images/createresponse.png
 
 
 
