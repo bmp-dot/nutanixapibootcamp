@@ -15,24 +15,31 @@ Words there
 
 Lab Setup
 +++++++++
+
 Exercise 2: Get the status of your VM
 ++++++++++++++++++++
-1. Click + in the main window to create a new tab-window
-2. Confirm that GET is selected in the dropdown
-3. Enter the URL to get your VM
+
+#. Click + in the main window to create a new tab-window
+
+#. Confirm that GET is selected in the dropdown
+
+#. Enter the URL to get your VM
+
  - Start with the URL from the previous exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
  - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response in Step 7 above.
 
 .. figure:: images/appendurl.png
 
-4. Configure basic authentication for this API call
+#. Configure basic authentication for this API call
+
  - Follow the same steps from the previous exercise - (Step 4 from VM creation workflow)
  - v3 conforms to HTTP as a stateless protocol such that each API call is authenticated
 
-5. Click Send to submit the v3 API call
+#. Click Send to submit the v3 API call
+
  - The intent response contains two important sections:
-The status exposes the current state of the entity
-The spec describes the final state desired by the user
+    - The status exposes the current state of the entity
+    - The spec describes the final state desired by the user
  - The state attribute in the status section allows a user to know if the system has transformed the entity from its current state to the final state
  - If the state is PENDING instead of COMPLETE, click Send to get the VM again
 

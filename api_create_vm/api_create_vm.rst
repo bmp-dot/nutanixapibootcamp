@@ -13,43 +13,46 @@ In the following exercise, you will create a VM using Nutanix v3 APIs.
 
 Words there
 
-Lab Setup
-+++++++++
+
 Exercise 1: Create your own VM
-++++++++++++++++++++
-1. Click + in the main window to create a new tab-window
+++++++++++++++++++++++++++++++
+
+#. Click + in the main window to create a new tab-window
 
 .. figure:: images/newtab.png
 
-2. Click the dropdown and select POST
-v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
+#. Click the dropdown and select POST
+
+  - v3 is RESTful and uses standard HTTP verbs like GET, POST, PUT, DELETE
 
 .. figure:: images/postfunction.png
 
-3. Enter the URL to create a VM
-- https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
-Replace {{prism_central_ip}} with the IP address displayed in the lab handout.
-- v3 exposes semantic URLs to make understanding and using the API easy
+#. Enter the URL to create a VM
+
+  - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
+  - v3 exposes semantic URLs to make understanding and using the API easy
 
 .. figure:: images/urlcreate.png
 
-4. Configure basic authentication for this API call
-- Click the Authorization tab and select Basic Auth from the Type dropdown
-- Enter Prism credentials of the cluster :
-Username : admin / Password : Use the “Prism login password” from handout
-Check “Save helper data to request”
-- Click Update Request to set authorization in the request header
+#. Configure basic authentication for this API call
+
+- Click the **Authorization** tab and select **Basic Auth** from the Type dropdown
+- Enter Prism credentials of the cluster, and click **Update Request**:
+    - **Username** - admin
+    - **Password** - Use the “Prism login password” from handout
 
 .. figure:: images/basicauth.png
 
-5. Set the media type to application/json
+#. Set the media type to application/json
+
 - Click the Body tab
 - Select the radio button for raw
 - Click the Text dropdown and select JSON (application/json)
 
 .. figure:: images/jsonmediatype.png
 
-6. Fill out the body
+#. Fill out the body
+
  - Copy or type the following JSON as the VM intent input
 
 .. code-block:: bash
@@ -74,7 +77,7 @@ Check “Save helper data to request”
 - Copy the validated spec from jsonlint and paste it in the Body section of postman.
 - Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
 
-7. Click Send to submit the v3 API call
+#. Click Send to submit the v3 API call
 v3 provides a precise HTTP status and replies with the relevant intent response
 
 .. figure:: images/createresponse.png
