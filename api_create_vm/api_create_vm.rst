@@ -78,9 +78,10 @@ Exercise 1: Create your own VM
     - Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
 
 #. Click Send to submit the v3 API call
-v3 provides a precise HTTP status and replies with the relevant intent response
 
-  .. figure:: images/createresponse.png
+    v3 provides a precise HTTP status and replies with the relevant intent response
+
+    .. figure:: images/createresponse.png
 
 
 
