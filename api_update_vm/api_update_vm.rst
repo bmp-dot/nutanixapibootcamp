@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise: Update your VM created in exercise 2 to mount a disk and power on
+Exercise: Update your VM
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
