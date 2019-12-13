@@ -9,7 +9,7 @@ Overview
 
 .. note::
 
-  Estimated time to complete: **30 MINUTES**
+  Estimated time to complete: **20 MINUTES**
 
 
 
@@ -55,21 +55,22 @@ Exercise 4: Update your VM to mount a disk and power on
 
     .. code-block:: bash
 
-    "disk_list": [{
-  "device_properties": {
-      "disk_address": {
-          "device_index": 0,
-          "adapter_type": "SCSI"
-      },
-      "device_type": "DISK"
-  },
-  "data_source_reference": {
-      "kind": "image",
-      "uuid": "<imageuuid>"
-  }
-  }]
+      "disk_list": [{
+    "device_properties": {
+        "disk_address": {
+            "device_index": 0,
+            "adapter_type": "SCSI"
+        },
+        "device_type": "DISK"
+    },
+    "data_source_reference": {
+        "kind": "image",
+        "uuid": "<imageuuid>"
+    }
+    }]
 
-    - Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
+
+- Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
 
     .. figure:: images/uuidupdateimage.png
 
