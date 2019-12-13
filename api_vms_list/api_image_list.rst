@@ -1,7 +1,7 @@
-.. _api_image_list:
+.. _api_vms_list:
 
 ----------------------
-API: List of Images
+API: List all VMs
 ----------------------
 
 Overview
@@ -16,7 +16,7 @@ Words there
 Lab Setup
 +++++++++
 
-Exercise 3: List the images on the cluster
+Exercise 3: List all the VMs 
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -27,7 +27,7 @@ Exercise 3: List the images on the cluster
 
 #. Enter the URL to list images
 
-    - https://{{prism_central_ip}}:9440/api/nutanix/v3/images/list
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms/list
 
 #. Configure basic authentication for this API call
 
@@ -52,8 +52,6 @@ Exercise 3: List the images on the cluster
 #. Click Send to submit the v3 API call
 
   - The intent response provides an array of image resources, similar to GET on one entity
-  - Take note of the uuid for the W2019Sysprep disk image in the metadata section
-  - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
 
   .. figure:: images/imageuuid.png
 
