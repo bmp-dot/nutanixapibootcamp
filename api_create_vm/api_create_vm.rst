@@ -1,7 +1,7 @@
 .. _api_create_vm:
 
 ----------------------
-API: Create VM
+2) API: Create VM
 ----------------------
 
 Overview
@@ -15,7 +15,7 @@ In the following exercise, you will create a VM using Nutanix v3 APIs.
 
 
 
-Exercise 1: Create your own VM
+Exercise: Create your own VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

@@ -1,7 +1,7 @@
 .. _api_vm_status:
 
 ----------------------
-API: VM Status
+2) API: VM Status
 ----------------------
 
 Overview
@@ -12,7 +12,7 @@ Overview
   Estimated time to complete: **5 MINUTES**
 
 
-Exercise 2: Get the status of your VM
+Exercise: Get the status of your VM
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

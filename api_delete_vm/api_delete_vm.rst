@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 1: Delete your VM
+Exercise: Delete your VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

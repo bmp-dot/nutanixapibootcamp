@@ -1,7 +1,7 @@
 .. _api_vm_guest_customization:
 
 ----------------------
-API: VM Guest Customization
+5) API: VM Guest Customization
 ----------------------
 
 Overview
@@ -16,7 +16,7 @@ API body you will include a unattend.xml to allow guest customization. The unatt
 
 
 
-Exercise 5: Create your Windows VM
+Exercise: Create your Windows VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

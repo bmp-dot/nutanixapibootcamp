@@ -1,7 +1,7 @@
 .. _api_image_list:
 
 ----------------------
-API: List of Images
+3) API: List of Images
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 3: List the images on the cluster
+Exercise: List the images on the cluster
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

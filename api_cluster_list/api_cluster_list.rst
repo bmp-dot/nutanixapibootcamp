@@ -1,7 +1,7 @@
 .. _api_cluster_list:
 
 ----------------------
-API: List all Nutanix clusters connected to Prism Central
+1) API: List all Nutanix clusters
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 3: List the clusters
+Exercise: List the clusters
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

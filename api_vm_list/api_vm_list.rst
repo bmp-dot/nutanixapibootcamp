@@ -1,7 +1,7 @@
 .. _api_vm_list:
 
 ----------------------
-API: List all VMs
+3) API: List all VMs
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 3: List all the VMs
+Exercise: List all the VMs
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window

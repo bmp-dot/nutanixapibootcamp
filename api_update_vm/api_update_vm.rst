@@ -1,7 +1,7 @@
 .. _api_update_vm:
 
 ----------------------
-API: Update VM
+4) API: Update VM
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 4: Update your VM to mount a disk and power on
+Exercise: Update your VM to mount a disk and power on
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
