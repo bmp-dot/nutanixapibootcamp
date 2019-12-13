@@ -1,7 +1,7 @@
 .. _api_vm_guest_customization:
 
 ----------------------
-6) API: VM Guest Customization
+7) API: VM Guest Customization
 ----------------------
 
 Overview

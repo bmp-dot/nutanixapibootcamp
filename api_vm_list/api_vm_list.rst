@@ -1,7 +1,7 @@
 .. _api_vm_list:
 
 ----------------------
-8) API: List of VMs
+9) API: List of VMs
 ----------------------
 
 Overview
@@ -50,7 +50,7 @@ Exercise: List the VMs
 
   - The intent response provides an array of image resources, similar to GET on one entity
 
-  .. figure:: images/imageuuid.png
+  .. figure:: images/vmlist.png
 
 
 

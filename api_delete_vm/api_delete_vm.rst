@@ -1,7 +1,7 @@
 .. _api_delete_vm:
 
 ----------------------
-7) API: Delete VM
+8) API: Delete VM
 ----------------------
 
 Overview
@@ -22,7 +22,7 @@ Exercise: Delete your VM
 #. Confirm that **Delete** is selected in the dropdown
 #. Enter the URL to for your VM Start with the URL from the previous exercise:
  - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
- - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response in exercise 1.
+ - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response in exercise 2.
 #. Configure basic authentication for this API call
  - Follow the same steps from exercise 1
 #. Click Send to submit the delete API call
