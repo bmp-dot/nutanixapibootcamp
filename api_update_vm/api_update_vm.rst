@@ -1,7 +1,7 @@
 .. _api_update_vm:
 
 ----------------------
-API: Update VM
+5) API: Update VM
 ----------------------
 
 Overview
@@ -9,14 +9,11 @@ Overview
 
 .. note::
 
-  Estimated time to complete: **30 MINUTES**
+  Estimated time to complete: **20 MINUTES**
 
-Words there
 
-Lab Setup
-+++++++++
 
-Exercise 4: Update your VM to mount an ISO and power on
+Exercise: Update your VM
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -39,11 +36,11 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 #. Set the media type to application/json
 
-    - Follow the same step 5 from **exercise 1**
+    - Follow the same steps from **exercise 1**
 
 #. Fill out the body
 
-    - Click on the tab for **exercise 2** where you retrieved the status of your VM
+    - Click on the tab from **exercise 3** where you retrieved the status of your VM
     - Copy the entire response
     - Click on the right-most tab for this exercise to update your VM
     - Paste the response from the GET as the body for the PUT
@@ -51,28 +48,30 @@ Exercise 4: Update your VM to mount an ISO and power on
 
     .. figure:: images/deletestatus.png
 
-#. Adjust the body to mount an ISO and power on
+#. Adjust the body to mount a disk and power on
 
     - Change the power_state attribute from OFF to ON
     - Add a comma, enter a newline, and then copy or type the following disk list into the spec
 
     .. code-block:: bash
 
-       "disk_list": [{
-               "device_properties": {
-                   "disk_address": {
-                       "device_index": 0,
-                       "adapter_type": "IDE"
-                   },
-                   "device_type": "CDROM"
-               },
-               "data_source_reference": {
-                   "kind": "image",
-                   "uuid": "{{uuid}}"
-               }
-           }]
+        "disk_list": [{
+      "device_properties": {
+          "disk_address": {
+              "device_index": 0,
+              "adapter_type": "SCSI"
+          },
+          "device_type": "DISK"
+      },
+      "data_source_reference": {
+          "kind": "image",
+          "uuid": "<imageuuid>"
+      }
+      }]
 
-    - Replace {{uuid}} with the uuid of the Ubuntu image from **exercise 3**
+
+
+ - Replace <imageuuid> with the uuid of the CentOS image from **exercise 4**
 
     .. figure:: images/uuidupdateimage.png
 
@@ -85,7 +84,7 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 #. Get the status of your VM
 
-    - Click on the tab for **exercise 2** where you retrieved the status of your VM
+    - Click on the tab for **exercise 3** where you retrieved the status of your VM
     - Click **Send** to repeat the **GET** to retrieve the latest information about your VM
     - Once the **state** is COMPLETE, the **status** will reflect the changes made to your VM
 
@@ -96,10 +95,8 @@ Exercise 4: Update your VM to mount an ISO and power on
     - Type the f key or click the search icon to open the search bar on the header
     - Enter the name of your VM (hint: your Initials)
     - Click on your VM in the table and click the **Launch Console** button under the table
-    - A window will appear with a graphical console to your VM, showing the Ubuntu installer
+    - A window will appear for the CentOS login prompt
 
 
 Takeaways
 +++++++++
-
-- Ben is cool too

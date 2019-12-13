@@ -6,12 +6,15 @@
   :name: _api_labs
   :hidden:
 
+  api_cluster_list/api_cluster_list
   api_create_vm/api_create_vm
   api_vm_status/api_vm_status
   api_image_list/api_image_list
   api_update_vm/api_update_vm
+  api_subnet_list/api_subnet_list
   api_vm_guest_customization/api_vm_guest_customization
   api_delete_vm/api_delete_vm
+  api_vm_list/api_vm_list
 
 .. toctree::
   :maxdepth: 2
@@ -27,8 +30,7 @@
   :name: _appendix
   :hidden:
 
-  tools_vms/windows_tools_vm
-  tools_vms/linux_tools_vm
+
   appendix/glossary
   appendix/basics
 
@@ -38,41 +40,16 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix API Bootcamp! This workbook accompanies an instructor-led session that introduces Nutanix Core technologies and many common management tasks.
-
-You will explore Prism Element and become familiar with its features and navigation. You will use Prism to perform basic cluster administration tasks, including storage and networking. You will also walk through basic VM deployment and management tasks with Prism and AHV. Finally, you will explore VM data protection, including snapshots and replication. The instructor explains the exercises and answers any additional questions that you may have.
-
-At the end of the bootcamp, attendees should understand the Core concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
-
-What's New
-++++++++++
-- Workshop updated for the following software versions:
-    - AOS & PC 5.11
-
-- Optional Lab Updates:
+Welcome to the Nutanix API Bootcamp! You will explore Prism Central v3 APIs and become familiar with using the API.  You will walk through basic VM deployment and updating VMs.
 
 
-Agenda
-++++++
-
-- Introductions
-- Nutanix Technology Overview
-- Nutanix Configuration
-- Deploying and Managing Workloads
-- Security Compliance
-- Monitoring and Managing the Environment
-
-Introductions
-+++++++++++++
-
-- Name
-- Familiarity with Nutanix
 
 Initial Setup
 +++++++++++++
 
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
+- A Windows and Linux image uploaded to the Image Service
 
 Environment Details
 +++++++++++++++++++
@@ -224,3 +201,11 @@ Nutanix Version Info
 - **AHV Version** - AHV 20170830.279 (5.10+)
 - **AOS Version** - 5.11
 - **PC Version** - 5.11
+
+UUIDs for 12/13/2019 Only
+++++++++++++++++++++
+
+ - Cluster UUID 00059983-5732-a131-0000-000000028848
+ - CentOS UUID  17a89041-b7be-441c-8ea6-7d0c4286aedf
+ - Windows UUID 7775a2cf-f08d-43e9-b6fb-0c12261d79ec
+ - Subnet UUID 06b1b4b0-4115-4052-b1b4-db29c52590b

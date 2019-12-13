@@ -1,14 +1,14 @@
-.. _api_image_list:
+.. _api_cluster_list:
 
 ----------------------
-4) API: List of Images
+1) API: List of Clusters
 ----------------------
 
 Overview
 ++++++++
 
-In this exercise you will list the images on the clusters.  Later exercises
-will require the image uuid in the JSON body.
+In this exercise you will list the clusters connected to Prism Central.  Later exercises
+will require the cluster uuid in the JSON body.
 
 .. note::
 
@@ -16,7 +16,7 @@ will require the image uuid in the JSON body.
 
 
 
-Exercise: List the images on the cluster
+Exercise: List the clusters
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -27,7 +27,7 @@ Exercise: List the images on the cluster
 
 #. Enter the URL to list images
 
-    - https://{{prism_central_ip}}:9440/api/nutanix/v3/images/list
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/clusters/list
 
 #. Configure basic authentication for this API call
 
@@ -36,7 +36,7 @@ Exercise: List the images on the cluster
 
 #. Set the media type to application/json
 
-    - Follow the same steps from the first exercise
+    - Follow the same steps 5 from the first exercise
 
 #. Fill out the body
 
@@ -51,11 +51,10 @@ Exercise: List the images on the cluster
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of image resources, similar to GET on one entity
-  - Take note of the uuid for the W2019Sysprep disk image in the metadata section
-  - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
+  - The intent response provides an array of cluster resources
+  - Take note of the cluster UUID under the metadata
 
-  .. figure:: images/imageuuid.png
+  .. figure:: images/clusteruuid.png
 
 
 

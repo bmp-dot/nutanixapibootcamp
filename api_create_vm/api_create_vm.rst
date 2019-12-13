@@ -1,20 +1,22 @@
 .. _api_create_vm:
 
 ----------------------
-API: Create VM
+2) API: Create VM
 ----------------------
 
 Overview
 ++++++++
 
-In the following exercise, you will create a VM using Nutanix v3 APIs.
+In the following exercise, you will create a VM using Nutanix v3 APIs.  The VM
+will be created in a powered off state with no disks attached.
 
-  Estimated time to complete: **30 MINUTES**
+.. note::
 
-Words there
+  Estimated time to complete: **20 MINUTES**
 
 
-Exercise 1: Create your own VM
+
+Exercise: Create your own VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -57,27 +59,29 @@ Exercise 1: Create your own VM
 
     .. code-block:: bash
 
-        {
-            "spec": {
-                "name": "API-VM-{Initial}",
-                "resources": {
-                    "num_vcpus_per_socket": 1,
-                    "num_sockets": 1,
-                    "memory_size_mib": 1024,
-                    "power_state": "OFF"
-                }
-            },
-            "api_version": "3.0",
-            "metadata": {
-                "kind": "vm"
-            }
-        }
+      {
+          "spec": {
+              "name": "API-VM-<initial>",
+              "cluster_reference": { "kind": "cluster", "uuid": "<clusteruuid>"},
+              "resources": {
+                  "num_vcpus_per_socket": 1,
+                  "num_sockets": 1,
+                  "memory_size_mib": 1024,
+                  "power_state": "OFF"
+              }
+          },
+          "api_version": "3.0",
+          "metadata": {
+              "kind": "vm"
+          }
+      }
 
-    - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
-    - Copy the validated spec from jsonlint and paste it in the Body section of postman.
-    - Change the VM’s name to add your initials at the end of VM name. Replace {initial} with your initials
+- Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
+- Copy the validated spec from jsonlint and paste it in the Body section of postman.
+- Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
+- You will need to replace <clusteruuid> with your cluster UUID from exercise 1
 
-#. Click Send to submit the v3 API call
+7. Click Send to submit the v3 API call
 
     v3 provides a precise HTTP status and replies with the relevant intent response
 

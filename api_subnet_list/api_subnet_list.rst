@@ -1,14 +1,14 @@
-.. _api_image_list:
+.. _api_subnet_list:
 
 ----------------------
-4) API: List of Images
+6) API: List of Subnets
 ----------------------
 
 Overview
 ++++++++
 
-In this exercise you will list the images on the clusters.  Later exercises
-will require the image uuid in the JSON body.
+In this exercise you will list the cluster subnets.  Later exercises
+will require the subnet uuid in the JSON body.
 
 .. note::
 
@@ -16,7 +16,7 @@ will require the image uuid in the JSON body.
 
 
 
-Exercise: List the images on the cluster
+Exercise: List the AHV subnets
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -27,7 +27,7 @@ Exercise: List the images on the cluster
 
 #. Enter the URL to list images
 
-    - https://{{prism_central_ip}}:9440/api/nutanix/v3/images/list
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/subnets/list
 
 #. Configure basic authentication for this API call
 
@@ -51,11 +51,10 @@ Exercise: List the images on the cluster
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of image resources, similar to GET on one entity
-  - Take note of the uuid for the W2019Sysprep disk image in the metadata section
-  - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
+  - The intent response provides an array of subnet resources
+  - Take note of the uuid for the **Primary** network in the metadata section
 
-  .. figure:: images/imageuuid.png
+  .. figure:: images/subnetuuid.png
 
 
 
