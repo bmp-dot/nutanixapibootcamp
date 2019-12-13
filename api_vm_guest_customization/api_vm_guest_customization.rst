@@ -1,7 +1,7 @@
 .. _api_vm_guest_customization:
 
 ----------------------
-5) API: VM Guest Customization
+6) API: VM Guest Customization
 ----------------------
 
 Overview
@@ -11,7 +11,7 @@ Overview
 
   Estimated time to complete: **20 MINUTES**
 
-In the following exercise, you will create a Windows VM using Nutanix v3 APIs.  In the
+In the following exercise you will create a Windows VM using Nutanix v3 APIs.  In the
 API body you will include a unattend.xml to allow guest customization. The unattend.xml is base64 encoded.
 
 
@@ -172,7 +172,7 @@ Required edits to above body
  - Change the disk image to the UUID of the Windows 2019 image.  Replace <diskimageuuid>
 
 
-The follwoning configuration gets applied/created after the sysprep
+The follwoning configuration gets applied/created from the unattend.xml
  - Create a new user Nutanix , with password Nutanix123#
  - Changes the timezone to PST.
  - Changes the system locale to en-US

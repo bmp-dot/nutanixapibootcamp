@@ -7,7 +7,8 @@
 Overview
 ++++++++
 
-In the following exercise, you will create a VM using Nutanix v3 APIs.
+In the following exercise, you will create a VM using Nutanix v3 APIs.  The VM
+will be created in a powered off state with no disks attached.
 
 .. note::
 

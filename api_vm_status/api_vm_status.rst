@@ -1,7 +1,7 @@
 .. _api_vm_status:
 
 ----------------------
-2) API: VM Status
+3) API: VM Status
 ----------------------
 
 Overview
@@ -22,13 +22,13 @@ Exercise: Get the status of your VM
 #. Enter the URL to get your VM
 
     - Start with the URL from the previous exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
-    - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response from exercise 1
+    - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response from exercise 2
 
     .. figure:: images/appendurl.png
 
 #. Configure basic authentication for this API call
 
-    - Follow the same steps from the previous exercise 4
+    - Follow the same steps from the previous exercise
     - v3 conforms to HTTP as a stateless protocol such that each API call is authenticated
 
 #. Click Send to submit the v3 API call

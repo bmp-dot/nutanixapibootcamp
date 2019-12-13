@@ -1,7 +1,7 @@
 .. _api_image_list:
 
 ----------------------
-3) API: List of Images
+4) API: List of Images
 ----------------------
 
 Overview
@@ -33,7 +33,7 @@ Exercise: List the images on the cluster
 
 #. Set the media type to application/json
 
-    - Follow the same steps 5 from the first exercise
+    - Follow the same steps from the first exercise
 
 #. Fill out the body
 

@@ -1,7 +1,7 @@
 .. _api_update_vm:
 
 ----------------------
-4) API: Update VM
+5) API: Update VM
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise: Update your VM to mount a disk and power on
+Exercise: Update your VM created in exercise 2 to mount a disk and power on
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -36,11 +36,11 @@ Exercise: Update your VM to mount a disk and power on
 
 #. Set the media type to application/json
 
-    - Follow the same step 5 from **exercise 1**
+    - Follow the same steps from **exercise 1**
 
 #. Fill out the body
 
-    - Click on the tab from **exercise 2** where you retrieved the status of your VM
+    - Click on the tab from **exercise 3** where you retrieved the status of your VM
     - Copy the entire response
     - Click on the right-most tab for this exercise to update your VM
     - Paste the response from the GET as the body for the PUT
@@ -48,7 +48,7 @@ Exercise: Update your VM to mount a disk and power on
 
     .. figure:: images/deletestatus.png
 
-#. Adjust the body to mount an ISO and power on
+#. Adjust the body to mount a disk and power on
 
     - Change the power_state attribute from OFF to ON
     - Add a comma, enter a newline, and then copy or type the following disk list into the spec
@@ -71,7 +71,7 @@ Exercise: Update your VM to mount a disk and power on
 
 
 
- - Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
+ - Replace <imageuuid> with the uuid of the CentOS image from **exercise 4**
 
     .. figure:: images/uuidupdateimage.png
 
@@ -84,7 +84,7 @@ Exercise: Update your VM to mount a disk and power on
 
 #. Get the status of your VM
 
-    - Click on the tab for **exercise 2** where you retrieved the status of your VM
+    - Click on the tab for **exercise 3** where you retrieved the status of your VM
     - Click **Send** to repeat the **GET** to retrieve the latest information about your VM
     - Once the **state** is COMPLETE, the **status** will reflect the changes made to your VM
 
