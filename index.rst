@@ -28,8 +28,7 @@
   :name: _appendix
   :hidden:
 
-  tools_vms/windows_tools_vm
-  tools_vms/linux_tools_vm
+
   appendix/glossary
   appendix/basics
 
@@ -39,7 +38,7 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix API Bootcamp! You will explore Prism Central v3 APIs and become familiar with using them to deploy VMs.  You will walk through basic VM deployment and updating VMs.
+Welcome to the Nutanix API Bootcamp! You will explore Prism Central v3 APIs and become familiar with using the API.  You will walk through basic VM deployment and updating VMs.
 
 At the end of the bootcamp, attendees should understand the Core concepts of Nutanix v3 APIs.
 

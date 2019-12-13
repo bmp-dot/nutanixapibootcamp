@@ -7,11 +7,13 @@ API: Create VM
 Overview
 ++++++++
 
-In the following exercise, you will create a VM using Nutanix v3 APIs.
+.. note::
 
   Estimated time to complete: **20 MINUTES**
 
-Words there
+In the following exercise, you will create a VM using Nutanix v3 APIs.
+
+
 
 
 Exercise 1: Create your own VM
