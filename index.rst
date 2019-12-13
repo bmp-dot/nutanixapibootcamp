@@ -12,7 +12,7 @@
   api_update_vm/api_update_vm
   api_vm_guest_customization/api_vm_guest_customization
   api_delete_vm/api_delete_vm
-  api_vms_list/api_vms_list
+  api_vm_list/api_vm_list
 
 .. toctree::
   :maxdepth: 2

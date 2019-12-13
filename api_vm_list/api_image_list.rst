@@ -1,4 +1,4 @@
-.. _api_vms_list:
+.. _api_vm_list:
 
 ----------------------
 API: List all VMs
@@ -16,7 +16,7 @@ Words there
 Lab Setup
 +++++++++
 
-Exercise 3: List all the VMs 
+Exercise 3: List all the VMs
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
