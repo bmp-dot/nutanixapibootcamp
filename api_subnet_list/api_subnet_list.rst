@@ -7,6 +7,9 @@
 Overview
 ++++++++
 
+In this exercise you will list the cluster subnets.  Later exercises
+will require the subnet uuid in the JSON body.
+
 .. note::
 
   Estimated time to complete: **5 MINUTES**

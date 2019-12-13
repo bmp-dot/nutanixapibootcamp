@@ -7,6 +7,9 @@
 Overview
 ++++++++
 
+In this exercise you will list the images on the clusters.  Later exercises
+will require the image uuid in the JSON body.
+
 .. note::
 
   Estimated time to complete: **5 MINUTES**
