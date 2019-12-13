@@ -48,7 +48,7 @@ Exercise: List the VMs
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of image resources, similar to GET on one entity
+  - The intent response provides an array of VMs
 
   .. figure:: images/vmlist.png
 

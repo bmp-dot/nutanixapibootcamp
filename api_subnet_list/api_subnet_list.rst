@@ -48,7 +48,7 @@ Exercise: List the AHV subnets
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of image resources, similar to GET on one entity
+  - The intent response provides an array of subnet resources
   - Take note of the uuid for the **Primary** network in the metadata section
 
   .. figure:: images/subnetuuid.png
