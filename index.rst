@@ -6,6 +6,7 @@
   :name: _api_labs
   :hidden:
 
+  api_cluster_list_vm/api_cluster_list
   api_create_vm/api_create_vm
   api_vm_status/api_vm_status
   api_image_list/api_image_list

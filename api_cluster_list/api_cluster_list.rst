@@ -1,7 +1,7 @@
-.. _api_vm_list:
+.. _api_cluster_list:
 
 ----------------------
-API: List all VMs
+API: List all Nutanix clusters connected to Prism Central
 ----------------------
 
 Overview
@@ -13,7 +13,7 @@ Overview
 
 
 
-Exercise 3: List all the VMs
+Exercise 3: List the clusters
 +++++++++++++++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -24,7 +24,7 @@ Exercise 3: List all the VMs
 
 #. Enter the URL to list images
 
-    - https://{{prism_central_ip}}:9440/api/nutanix/v3/vms/list
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/clusters/list
 
 #. Configure basic authentication for this API call
 
@@ -49,8 +49,9 @@ Exercise 3: List all the VMs
 #. Click Send to submit the v3 API call
 
   - The intent response provides an array of image resources, similar to GET on one entity
+  - Take note of the cluster UUID under the metadata.
 
-  .. figure:: images/imageuuid.png
+  .. figure:: images/clusteruuid.png
 
 
 
