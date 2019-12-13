@@ -7,17 +7,14 @@ API: VM Guest Customization
 Overview
 ++++++++
 
-In the following exercise, you will create a VM using Nutanix v3 APIs.  In the
-API body you will include a Winodws unattend.xml to allow guest customization.
-The unattend.xml is base64 encoded.
+In the following exercise, you will create a Windows VM using Nutanix v3 APIs.  In the
+API body you will include a unattend.xml to allow guest customization. The unattend.xml is base64 encoded.
 
 
   Estimated time to complete: **30 MINUTES**
 
-Words there
 
-
-Exercise 1: Create your own VM
+Exercise 1: Create your Windows VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -167,18 +164,16 @@ Exercise 1: Create your own VM
 
 
 
-
-    - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
-    - Copy the validated spec from jsonlint and paste it in the Body section of postman.
     - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials.
     - Change the subnet UUID to a valid subnet UUID on your cluster.  Replace <subnetuuid>
-    - Change the disk image to a valid UUID on the cluster of the image you want to use.  Replace <diskimageuuid>
+    - Change the disk image to the UUID of the Windows 2019 image.  Replace <diskimageuuid>
 
-    Below are the configuration gets applied/created after the sysprep:
-    1. Create a new user Nutanix , with password Nutanix123#
-    2. Changes the timezone to PST.
-    3. Changes the system locale to en-US
-    4. Hostname to Calm
+
+    The follwoning configuration gets applied/created after the sysprep:
+    - Create a new user Nutanix , with password Nutanix123#
+    - Changes the timezone to PST.
+    - Changes the system locale to en-US
+    - Hostname to Calm
 
 #. Click Send to submit the v3 API call
 
