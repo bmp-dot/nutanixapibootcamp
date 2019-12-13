@@ -57,27 +57,27 @@ Exercise 1: Create your own VM
 
     .. code-block:: bash
 
-    {
-        "spec": {
-            "name": "API-VM-<initial>",
-            "cluster_reference": { "kind": "cluster", "uuid": "<clusteruuid>"},
-            "resources": {
-                "num_vcpus_per_socket": 1,
-                "num_sockets": 1,
-                "memory_size_mib": 1024,
-                "power_state": "OFF"
-            }
-        },
-        "api_version": "3.0",
-        "metadata": {
-            "kind": "vm"
-        }
-    }
+      {
+          "spec": {
+              "name": "API-VM-<initial>",
+              "cluster_reference": { "kind": "cluster", "uuid": "<clusteruuid>"},
+              "resources": {
+                  "num_vcpus_per_socket": 1,
+                  "num_sockets": 1,
+                  "memory_size_mib": 1024,
+                  "power_state": "OFF"
+              }
+          },
+          "api_version": "3.0",
+          "metadata": {
+              "kind": "vm"
+          }
+      }
 
-    - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
-    - Copy the validated spec from jsonlint and paste it in the Body section of postman.
-    - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
-    - You will need to replace <clusteruuid> with your cluster UUID
+- Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
+- Copy the validated spec from jsonlint and paste it in the Body section of postman.
+- Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
+- You will need to replace <clusteruuid> with your cluster UUID
 
 #. Click Send to submit the v3 API call
 
