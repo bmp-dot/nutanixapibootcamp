@@ -11,10 +11,6 @@ Overview
 
   Estimated time to complete: **5 MINUTES**
 
-Words there
-
-Lab Setup
-+++++++++
 
 Exercise 2: Get the status of your VM
 ++++++++++++++++++++

@@ -11,7 +11,10 @@ Overview
 
   Estimated time to complete: **5 MINUTES**
 
+
+
 Exercise 1: Delete your VM
+++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
 #. Confirm that **Delete** is selected in the dropdown

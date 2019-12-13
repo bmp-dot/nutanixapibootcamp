@@ -15,7 +15,6 @@ In the following exercise, you will create a VM using Nutanix v3 APIs.
 
 
 
-
 Exercise 1: Create your own VM
 ++++++++++++++++++++++++++++++
 

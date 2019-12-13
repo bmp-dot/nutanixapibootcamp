@@ -11,10 +11,7 @@ Overview
 
   Estimated time to complete: **30 MINUTES**
 
-Words there
 
-Lab Setup
-+++++++++
 
 Exercise 4: Update your VM to mount a disk and power on
 ++++++++++++++++++++

@@ -7,11 +7,13 @@ API: VM Guest Customization
 Overview
 ++++++++
 
+.. note::
+
+  Estimated time to complete: **20 MINUTES**
+
 In the following exercise, you will create a Windows VM using Nutanix v3 APIs.  In the
 API body you will include a unattend.xml to allow guest customization. The unattend.xml is base64 encoded.
 
-
-  Estimated time to complete: **20 MINUTES**
 
 
 Exercise 1: Create your Windows VM

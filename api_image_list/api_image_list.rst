@@ -11,10 +11,7 @@ Overview
 
   Estimated time to complete: **5 MINUTES**
 
-Words there
 
-Lab Setup
-+++++++++
 
 Exercise 3: List the images on the cluster
 +++++++++++++++++++++++++++++++++++++++++++
