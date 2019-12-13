@@ -70,7 +70,8 @@ Exercise 4: Update your VM to mount a disk and power on
       }]
 
 
-- Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
+
+ - Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
 
     .. figure:: images/uuidupdateimage.png
 
@@ -94,7 +95,7 @@ Exercise 4: Update your VM to mount a disk and power on
     - Type the f key or click the search icon to open the search bar on the header
     - Enter the name of your VM (hint: your Initials)
     - Click on your VM in the table and click the **Launch Console** button under the table
-    - A window will appear with a graphical console to your VM, showing the Ubuntu installer
+    - A window will appear for the CentOS login prompt
 
 
 Takeaways
