@@ -40,7 +40,6 @@ Getting Started
 
 Welcome to the Nutanix API Bootcamp! You will explore Prism Central v3 APIs and become familiar with using the API.  You will walk through basic VM deployment and updating VMs.
 
-At the end of the bootcamp, attendees should understand the Core concepts of Nutanix v3 APIs.
 
 
 Initial Setup
