@@ -38,41 +38,17 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix API Bootcamp! This workbook accompanies an instructor-led session that introduces Nutanix Core technologies and many common management tasks.
+Welcome to the Nutanix API Bootcamp! You will explore Prism Central v3 APIs and become familiar with using them to deploy VMs.  You will walk through basic VM deployment and updating VMs.
 
-You will explore Prism Element and become familiar with its features and navigation. You will use Prism to perform basic cluster administration tasks, including storage and networking. You will also walk through basic VM deployment and management tasks with Prism and AHV. Finally, you will explore VM data protection, including snapshots and replication. The instructor explains the exercises and answers any additional questions that you may have.
+At the end of the bootcamp, attendees should understand the Core concepts of Nutanix v3 APIs.
 
-At the end of the bootcamp, attendees should understand the Core concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
-
-What's New
-++++++++++
-- Workshop updated for the following software versions:
-    - AOS & PC 5.11
-
-- Optional Lab Updates:
-
-
-Agenda
-++++++
-
-- Introductions
-- Nutanix Technology Overview
-- Nutanix Configuration
-- Deploying and Managing Workloads
-- Security Compliance
-- Monitoring and Managing the Environment
-
-Introductions
-+++++++++++++
-
-- Name
-- Familiarity with Nutanix
 
 Initial Setup
 +++++++++++++
 
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
+- A Windows and Linux image uploaded to the Image Service
 
 Environment Details
 +++++++++++++++++++
@@ -224,3 +200,8 @@ Nutanix Version Info
 - **AHV Version** - AHV 20170830.279 (5.10+)
 - **AOS Version** - 5.11
 - **PC Version** - 5.11
+
+
+Cluster UUID for 12/13/2019 only 00059983-5732-a131-0000-000000028848
+CentOS UUID for 12/13/2019 only 17a89041-b7be-441c-8ea6-7d0c4286aedf
+Windows UUID for 12/13/2019 only 7775a2cf-f08d-43e9-b6fb-0c12261d79ec

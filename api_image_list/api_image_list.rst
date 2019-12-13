@@ -41,7 +41,7 @@ Exercise 3: List the images on the cluster
 #. Fill out the body
 
     - Click the Body tab
-    - Copy or type an empty dictionary in the json body
+    - Copy or type an empty dictionary in the json body as seen below
 
     .. code-block:: bash
 
@@ -52,7 +52,8 @@ Exercise 3: List the images on the cluster
 #. Click Send to submit the v3 API call
 
   - The intent response provides an array of image resources, similar to GET on one entity
-  - Note the uuid of the Ubuntu 16.10 Desktop image in the metadata section
+  - Take note of the uuid for the W2019Sysprep disk image in the metadata section
+  - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
 
   .. figure:: images/imageuuid.png
 
@@ -62,5 +63,3 @@ Exercise 3: List the images on the cluster
 
 Takeaways
 +++++++++
-
-- Nathan is Super cool

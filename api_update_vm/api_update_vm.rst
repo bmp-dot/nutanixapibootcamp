@@ -16,7 +16,7 @@ Words there
 Lab Setup
 +++++++++
 
-Exercise 4: Update your VM to mount an ISO and power on
+Exercise 4: Update your VM to mount a disk and power on
 ++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
@@ -43,7 +43,7 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 #. Fill out the body
 
-    - Click on the tab for **exercise 2** where you retrieved the status of your VM
+    - Click on the tab from **exercise 2** where you retrieved the status of your VM
     - Copy the entire response
     - Click on the right-most tab for this exercise to update your VM
     - Paste the response from the GET as the body for the PUT
@@ -58,21 +58,21 @@ Exercise 4: Update your VM to mount an ISO and power on
 
     .. code-block:: bash
 
-       "disk_list": [{
-               "device_properties": {
-                   "disk_address": {
-                       "device_index": 0,
-                       "adapter_type": "IDE"
-                   },
-                   "device_type": "CDROM"
-               },
-               "data_source_reference": {
-                   "kind": "image",
-                   "uuid": "{{uuid}}"
-               }
-           }]
+    "disk_list": [{
+  "device_properties": {
+      "disk_address": {
+          "device_index": 0,
+          "adapter_type": "SCSI"
+      },
+      "device_type": "DISK"
+  },
+  "data_source_reference": {
+      "kind": "image",
+      "uuid": "<imageuuid>"
+  }
+  }]
 
-    - Replace {{uuid}} with the uuid of the Ubuntu image from **exercise 3**
+    - Replace <imageuuid> with the uuid of the CentOS image from **exercise 3**
 
     .. figure:: images/uuidupdateimage.png
 
@@ -101,5 +101,3 @@ Exercise 4: Update your VM to mount an ISO and power on
 
 Takeaways
 +++++++++
-
-- Ben is cool too
