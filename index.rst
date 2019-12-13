@@ -201,7 +201,10 @@ Nutanix Version Info
 - **AOS Version** - 5.11
 - **PC Version** - 5.11
 
+UUIDs for 12/13/2019 Only
+++++++++++++++++++++
 
-Cluster UUID for 12/13/2019 only 00059983-5732-a131-0000-000000028848
-CentOS UUID for 12/13/2019 only 17a89041-b7be-441c-8ea6-7d0c4286aedf
-Windows UUID for 12/13/2019 only 7775a2cf-f08d-43e9-b6fb-0c12261d79ec
+ - Cluster UUID 00059983-5732-a131-0000-000000028848
+ - CentOS UUID  17a89041-b7be-441c-8ea6-7d0c4286aedf
+ - Windows UUID 7775a2cf-f08d-43e9-b6fb-0c12261d79ec
+ - Subnet UUID 06b1b4b0-4115-4052-b1b4-db29c52590b
