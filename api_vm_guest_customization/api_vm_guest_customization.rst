@@ -177,7 +177,7 @@ The follwoning configuration gets applied/created after the sysprep
  - Hostname to Calm
 
 
-#. Click Send to submit the v3 API call
+7. Click Send to submit the v3 API call
 
     v3 provides a precise HTTP status and replies with the relevant intent response
 
