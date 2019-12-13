@@ -1,11 +1,14 @@
 .. _api_cluster_list:
 
 ----------------------
-1) API: List all Nutanix clusters
+1) API: List of clusters
 ----------------------
 
 Overview
 ++++++++
+
+In this exercise you will list the clusters connected to Prism Central.  Later exercises
+will require the cluster uuid in the JSON body.
 
 .. note::
 

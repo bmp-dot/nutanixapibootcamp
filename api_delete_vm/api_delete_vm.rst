@@ -1,11 +1,13 @@
 .. _api_delete_vm:
 
 ----------------------
-API: Delete VM
+7) API: Delete VM
 ----------------------
 
 Overview
 ++++++++
+
+In this exercise you will delete the VM you created in exercise 2.
 
 .. note::
 

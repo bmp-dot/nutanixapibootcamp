@@ -7,11 +7,11 @@
 Overview
 ++++++++
 
+In the following exercise, you will create a VM using Nutanix v3 APIs.
+
 .. note::
 
   Estimated time to complete: **20 MINUTES**
-
-In the following exercise, you will create a VM using Nutanix v3 APIs.
 
 
 
@@ -78,7 +78,7 @@ Exercise: Create your own VM
 - Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
 - Copy the validated spec from jsonlint and paste it in the Body section of postman.
 - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
-- You will need to replace <clusteruuid> with your cluster UUID
+- You will need to replace <clusteruuid> with your cluster UUID from exercise 1
 
 7. Click Send to submit the v3 API call
 
