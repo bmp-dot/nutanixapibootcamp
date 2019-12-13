@@ -16,7 +16,7 @@ API body you will include a unattend.xml to allow guest customization. The unatt
 
 
 
-Exercise 1: Create your Windows VM
+Exercise 5: Create your Windows VM
 ++++++++++++++++++++++++++++++
 
 #. Click + in the main window to create a new tab-window
