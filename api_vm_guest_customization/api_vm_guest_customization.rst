@@ -122,7 +122,7 @@ Exercise: Create your Windows VM
 
 
 
-      { "kind":"image", "<diskimageuuid>" }
+      { "kind":"image", "uuid": "<diskimageuuid>" }
 
       ,
 

@@ -98,5 +98,5 @@ Exercise: Update your VM
     - A window will appear for the CentOS login prompt
 
 
-Takeaways
+Takeaway
 +++++++++
