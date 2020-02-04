@@ -15,6 +15,7 @@
   api_vm_guest_customization/api_vm_guest_customization
   api_delete_vm/api_delete_vm
   api_vm_list/api_vm_list
+  api_launch_calm_bp/api_launch_calm_bp
 
 .. toctree::
   :maxdepth: 2
@@ -50,6 +51,7 @@ Initial Setup
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
 - A Windows and Linux image uploaded to the Image Service
+- Postman account
 
 Environment Details
 +++++++++++++++++++

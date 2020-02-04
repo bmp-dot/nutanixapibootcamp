@@ -7,6 +7,8 @@
 Overview
 ++++++++
 
+In this exercise you will list all VMs on the specified cluster.
+
 .. note::
 
   Estimated time to complete: **5 MINUTES**
@@ -51,10 +53,3 @@ Exercise: List the VMs
   - The intent response provides an array of VMs
 
   .. figure:: images/vmlist.png
-
-
-
-
-
-Takeaways
-+++++++++
