@@ -8,7 +8,7 @@ Overview
 ++++++++
 
 This exercise is optional.  A Calm Blueprint must already be present on your PC instance.  This API is meant to demonstrate a simple Blueprint launch from the API.
-Some of the information in the lab will be provided by the instructor. 
+Some of the information in the lab will be provided by the instructor.
 
 .. note::
 
@@ -19,7 +19,7 @@ Some of the information in the lab will be provided by the instructor.
 Exercise: Lanch Calm Blueprint
 +++++++++++++++++++++++++++++++++++++++++++
 
-#. Obtain the UUID of the Blueprint.  A quick way to do this is to copy the UUID from the Calm UI.
+#. Obtain the UUID of the Blueprint.
 
 #. Click the dropdown and select POST
 
@@ -66,6 +66,8 @@ Exercise: Lanch Calm Blueprint
         }
       }
 
-    .. figure:: images/apimetajson.png
+
 
 #. Click Send to submit the v3 API call
+
+#. Check the application status under Calm within Prism Central.
