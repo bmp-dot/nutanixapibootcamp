@@ -55,10 +55,3 @@ Exercise: List the AHV subnets
   - Take note of the uuid for the **Primary** network in the metadata section
 
   .. figure:: images/subnetuuid.png
-
-
-
-
-
-Takeaways
-+++++++++

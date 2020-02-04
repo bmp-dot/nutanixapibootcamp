@@ -86,8 +86,3 @@ Exercise: Create your own VM
     v3 provides a precise HTTP status and replies with the relevant intent response
 
     .. figure:: images/createresponse.png
-
-
-
-Takeaways
-+++++++++

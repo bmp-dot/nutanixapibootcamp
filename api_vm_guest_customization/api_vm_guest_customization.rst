@@ -13,6 +13,7 @@ Overview
 
 In the following exercise you will create a Windows VM using Nutanix v3 APIs.  In the
 API body you will include a unattend.xml to allow guest customization. The unattend.xml is base64 encoded.
+Optionally from Linux you can run "echo <base64-content> | base64 --decode" to see the raw xml.
 
 
 
@@ -184,8 +185,3 @@ The follwoning configuration gets applied/created from the unattend.xml
     v3 provides a precise HTTP status and replies with the relevant intent response
 
     .. figure:: images/createresponse.png
-
-
-
-Takeaways
-+++++++++

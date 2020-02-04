@@ -26,8 +26,3 @@ Exercise: Delete your VM
 #. Configure basic authentication for this API call
  - Follow the same steps from exercise 1
 #. Click Send to submit the delete API call
-
-
-
-Takeaways
-+++++++++
