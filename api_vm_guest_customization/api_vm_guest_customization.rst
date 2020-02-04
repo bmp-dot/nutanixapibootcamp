@@ -185,3 +185,14 @@ The follwoning configuration gets applied/created from the unattend.xml
     v3 provides a precise HTTP status and replies with the relevant intent response
 
     .. figure:: images/createresponse.png
+
+
+
+8. Check it out in the Prism UI
+
+  - Open a web browser to https://{{prism_central_ip}}:9440/console/
+  - Enter the Prism **Username** and **Password** displayed in your lab handout to log in
+  - Type the f key or click the search icon to open the search bar on the header
+  - Enter the name of your VM (hint: your Initials)
+  - Click on your VM in the table and click the **Launch Console** button under the table
+  - A window will appear for the CentOS login prompt

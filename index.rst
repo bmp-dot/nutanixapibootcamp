@@ -203,3 +203,11 @@ Nutanix Version Info
 - **AHV Version** - AHV 20170830.279 (5.10+)
 - **AOS Version** - 5.11
 - **PC Version** - 5.11
+
+
+
+blueprint UUID
+f2172a1c-9a66-4f12-b03c-84f17da67aba
+
+app_profile UUID
+707ec728-012f-4d4e-b163-733d16dfeb81
