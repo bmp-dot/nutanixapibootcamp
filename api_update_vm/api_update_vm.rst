@@ -27,7 +27,7 @@ Exercise: Update your VM
 
 #. Enter the URL to update your VM
 
-    - Copy the URL used in the second exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms/{{uuid}}
+    - Copy the URL used in the third exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms/{{uuid}}
     - Replace {{prism_central_ip}} with the IP address mentioned in the lab handout
 
     .. figure:: images/updatevm.png
@@ -54,7 +54,7 @@ Exercise: Update your VM
 #. Adjust the body to mount a disk and power on
 
     - Change the power_state attribute from OFF to ON
-    - Add a comma, enter a newline, and then copy or type the following disk list into the spec
+    - Search for "disk_list": [] and replace with the following disk list into the spec
 
     .. code-block:: bash
 
