@@ -8,7 +8,7 @@ Overview
 ++++++++
 
 In this exercise you will list the images on the clusters.  Later exercises
-will require the image uuid in the JSON body.
+will require the image uuid in the JSON body.  These images are stored in the AHV image service.
 
 .. note::
 
@@ -56,10 +56,3 @@ Exercise: List the images on the cluster
   - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
 
   .. figure:: images/imageuuid.png
-
-
-
-
-
-Takeaways
-+++++++++

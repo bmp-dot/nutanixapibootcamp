@@ -1,14 +1,14 @@
-.. _api_cluster_list:
+.. _api_launch_calm_bp:
 
 ----------------------
-1) API: List of Clusters
+1) (Optional) API: Launch Calm BP
 ----------------------
 
 Overview
 ++++++++
 
-In this exercise you will list the clusters connected to Prism Central.  Later exercises
-will require the cluster uuid in the JSON body.
+This exercise is optional.  A Calm Blueprint must already be present on your PC instance.  This API is meant to demonstrate a simple Blueprint launch from the API.
+Some of the information in the lab will be provided by the instructor. 
 
 .. note::
 
@@ -16,18 +16,18 @@ will require the cluster uuid in the JSON body.
 
 
 
-Exercise: List the clusters
+Exercise: Lanch Calm Blueprint
 +++++++++++++++++++++++++++++++++++++++++++
 
-#. Click + in the main window to create a new tab-window
+#. Obtain the UUID of the Blueprint.  A quick way to do this is to copy the UUID from the Calm UI.
 
 #. Click the dropdown and select POST
 
     - v3 standardizes on POST for listing to offer server-side filtering, grouping, and sorting
 
-#. Enter the URL to list clusters
+#. Enter the URL to of the Calm Blueprint.  The UUID of the Blueprint is required.
 
-    - https://{{prism_central_ip}}:9440/api/nutanix/v3/clusters/list
+    - https://{{prism_central_ip}}:9440/api/nutanix/v3/blueprints/<blueprint-uuid>/simple_launch
 
 #. Configure basic authentication for this API call
 
@@ -49,25 +49,23 @@ Exercise: List the clusters
 #. Fill out the body
 
     - Click the Body tab
-    - Copy or type an empty dictionary in the json body as seen below
+    - Copy or type json body as seen below.  Be sure to add your initials the app_name field.
 
     .. code-block:: bash
 
-      {}
+
+      {
+      "spec": {
+        "app_name": "LaunchDemoPostman-<Initials>",
+        "app_description": "An example of a simple blueprint launch via the v3 REST API",
+        "app_profile_reference": {
+            "kind": "app_profile",
+            "name": "AHV",
+            "uuid": "<app_uuid>"
+            }
+        }
+      }
 
     .. figure:: images/apimetajson.png
 
 #. Click Send to submit the v3 API call
-
-  - The intent response provides an array of cluster resources
-  - Take note of the cluster UUID under the metadata
-
-  .. figure:: images/clusteruuid.png
-
-
-
-
-
-Takeaways
-+++++++++
-In this exercise you peformed a simple cluster list API call.  You will need a cluster UUID for all v3 API fucntions.  You also configured your cluster authentication which will be the same in the remaing exercises/

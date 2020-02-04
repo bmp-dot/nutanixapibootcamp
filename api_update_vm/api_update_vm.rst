@@ -7,9 +7,12 @@
 Overview
 ++++++++
 
+In this exercise perfoms two VM updates in a single API call.  You update you VM to associate a disk and perform a power on.
+
 .. note::
 
   Estimated time to complete: **20 MINUTES**
+
 
 
 
@@ -96,7 +99,3 @@ Exercise: Update your VM
     - Enter the name of your VM (hint: your Initials)
     - Click on your VM in the table and click the **Launch Console** button under the table
     - A window will appear for the CentOS login prompt
-
-
-Takeaway
-+++++++++

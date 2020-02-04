@@ -40,7 +40,3 @@ Exercise: Get the status of your VM
     - If the state is PENDING instead of COMPLETE, click Send to get the VM again
 
     .. figure:: images/vmstatus.png
-
-
-Takeaways
-+++++++++
