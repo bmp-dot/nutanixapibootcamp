@@ -76,7 +76,7 @@ Exercise: Update your VM
 
  - Replace <imageuuid> with the uuid of the CentOS image from **exercise 4**
 
-    .. figure:: images/uuidupdateimage.png
+    .. figure:: images/updatevmstate.png
 
 #. Click **Send** to submit the v3 API call
 
