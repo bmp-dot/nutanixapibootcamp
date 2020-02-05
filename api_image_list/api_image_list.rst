@@ -52,7 +52,11 @@ Exercise: List the images on the cluster
 #. Click Send to submit the v3 API call
 
   - The intent response provides an array of image resources, similar to GET on one entity
-  - Take note of the uuid for the W2019Sysprep disk image in the metadata section
-  - Take note of the uuid for the CentOS-7-x86_64-Generic disk image in the metadata section
+  - Take note of the uuid for the CentOS7 disk image in the metadata section
 
-  .. figure:: images/imageuuid.png
+    .. figure:: images/centosuuid.png
+
+
+  - Take note of the uuid for the Windows2017 disk image in the metadata section
+
+    .. figure:: images/windowsuuid.png

@@ -76,13 +76,13 @@ Exercise: Create your own VM
           }
       }
 
-- Go to https://jsonlint.com/ - Paste the above given spec and click on “Validate Json”
-- Copy the validated spec from jsonlint and paste it in the Body section of postman.
+
 - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
 - You will need to replace <clusteruuid> with your cluster UUID from exercise 1
+- Take note of your VM UUID from the response
 
 7. Click Send to submit the v3 API call
 
     v3 provides a precise HTTP status and replies with the relevant intent response
 
-    .. figure:: images/createresponse.png
+    .. figure:: images/vmuuid.png

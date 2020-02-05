@@ -170,7 +170,7 @@ Exercise: Create your Windows VM
 Required edits to above body
  - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials.
  - Change the subnet UUID to a valid subnet UUID on your cluster.  Replace <subnetuuid>
- - Change the disk image to the UUID of the Windows 2019 image.  Replace <diskimageuuid>
+ - Change the disk image to the UUID of the Windows 2016 image.  Replace <diskimageuuid>
 
 
 The follwoning configuration gets applied/created from the unattend.xml

@@ -24,7 +24,7 @@ Exercise: Get the status of your VM
     - Start with the URL from the previous exercise: https://{{prism_central_ip}}:9440/api/nutanix/v3/vms
     - Append /{{uuid}} to the URL, using the uuid from the metadata section noted in the VM creation response from exercise 2
 
-    .. figure:: images/appendurl.png
+    .. figure:: images/appenduuid.png
 
 #. Configure basic authentication for this API call
 
@@ -39,4 +39,4 @@ Exercise: Get the status of your VM
     - The state attribute in the status section allows a user to know if the system has transformed the entity from its current state to the final state
     - If the state is PENDING instead of COMPLETE, click Send to get the VM again
 
-    .. figure:: images/vmstatus.png
+    .. figure:: images/getstatus.png
