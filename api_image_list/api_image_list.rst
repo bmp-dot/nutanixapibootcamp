@@ -57,6 +57,6 @@ Exercise: List the images on the cluster
     .. figure:: images/centosuuid.png
 
 
-  - Take note of the uuid for the Windows2017 disk image in the metadata section
+  - Take note of the uuid for the Windows2016 disk image in the metadata section
 
     .. figure:: images/windowsuuid.png
