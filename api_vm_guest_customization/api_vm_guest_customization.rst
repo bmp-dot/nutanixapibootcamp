@@ -1,7 +1,7 @@
 .. _api_vm_guest_customization:
 
 ----------------------
-7) API: VM Guest Customization
+API: VM Guest Customization
 ----------------------
 
 Overview
@@ -167,17 +167,17 @@ Exercise: Create your Windows VM
 
 
 
-Required edits to above body
- - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials.
- - Change the subnet UUID to a valid subnet UUID on your cluster.  Replace <subnetuuid>
- - Change the disk image to the UUID of the Windows 2016 image.  Replace <diskimageuuid>
+    Required edits to above body
+      - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials.
+      - Change the subnet UUID to a valid subnet UUID on your cluster.  Replace <subnetuuid>
+      - Change the disk image to the UUID of the Windows 2016 image.  Replace <diskimageuuid>
 
 
-The follwoning configuration gets applied/created from the unattend.xml
- - Create a new user Nutanix , with password Nutanix123#
- - Changes the timezone to PST.
- - Changes the system locale to en-US
- - Hostname to Calm
+   The follwoning configuration gets applied/created from the unattend.xml
+      - Create a new user Nutanix , with password Nutanix123#
+      - Changes the timezone to PST.
+      - Changes the system locale to en-US
+      - Hostname to Calm
 
 
 7. Click Send to submit the v3 API call
@@ -190,9 +190,9 @@ The follwoning configuration gets applied/created from the unattend.xml
 
 8. Check it out in the Prism UI
 
-  - Open a web browser to https://{{prism_central_ip}}:9440/console/
-  - Enter the Prism **Username** and **Password** displayed in your lab handout to log in
-  - Type the f key or click the search icon to open the search bar on the header
-  - Enter the name of your VM (hint: your Initials)
-  - Click on your VM in the table and click the **Launch Console** button under the table
-  - A window will appear for the CentOS login prompt
+    - Open a web browser to https://{{prism_central_ip}}:9440/console/
+    - Enter the Prism **Username** and **Password** displayed in your lab handout to log in
+    - Type the f key or click the search icon to open the search bar on the header
+    - Enter the name of your VM (hint: your Initials)
+    - Click on your VM in the table and click the **Launch Console** button under the table
+    - A window will appear for the CentOS login prompt

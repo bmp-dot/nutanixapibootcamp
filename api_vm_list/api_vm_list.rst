@@ -1,7 +1,7 @@
 .. _api_vm_list:
 
 ----------------------
-9) API: List of VMs
+API: List of VMs
 ----------------------
 
 Overview
@@ -50,6 +50,6 @@ Exercise: List the VMs
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of VMs
+    - The intent response provides an array of VMs
 
   .. figure:: images/vmlist.png

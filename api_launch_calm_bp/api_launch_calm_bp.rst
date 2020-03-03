@@ -1,7 +1,7 @@
 .. _api_launch_calm_bp:
 
 ----------------------
-1) (Optional) API: Launch Calm BP
+(Optional) API: Launch Calm BP
 ----------------------
 
 Overview
