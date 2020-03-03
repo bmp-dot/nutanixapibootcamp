@@ -1,7 +1,7 @@
 .. _api_update_vm:
 
 ----------------------
-5) API: Update VM
+API: Update VM
 ----------------------
 
 Overview

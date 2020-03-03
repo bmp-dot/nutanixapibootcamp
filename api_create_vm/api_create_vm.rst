@@ -1,7 +1,7 @@
 .. _api_create_vm:
 
 ----------------------
-2) API: Create VM
+API: Create VM
 ----------------------
 
 Overview
@@ -77,9 +77,9 @@ Exercise: Create your own VM
       }
 
 
-- Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
-- You will need to replace <clusteruuid> with your cluster UUID from exercise 1
-- Take note of your VM UUID from the response
+    - Change the VM’s name to add your initials at the end of VM name. Replace <initial> with your initials
+    - You will need to replace <clusteruuid> with your cluster UUID from exercise 1
+    - Take note of your VM UUID from the response
 
 7. Click Send to submit the v3 API call
 

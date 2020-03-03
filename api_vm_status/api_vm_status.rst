@@ -1,7 +1,7 @@
 .. _api_vm_status:
 
 ----------------------
-3) API: VM Status
+API: VM Status
 ----------------------
 
 Overview

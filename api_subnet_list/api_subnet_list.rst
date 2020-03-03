@@ -1,7 +1,7 @@
 .. _api_subnet_list:
 
 ----------------------
-6) API: List of Subnets
+API: List of Subnets
 ----------------------
 
 Overview

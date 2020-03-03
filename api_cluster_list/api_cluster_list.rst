@@ -1,7 +1,7 @@
 .. _api_cluster_list:
 
 ----------------------
-1) API: List of Clusters
+API: List of Clusters
 ----------------------
 
 Overview
@@ -59,8 +59,8 @@ Exercise: List the clusters
 
 #. Click Send to submit the v3 API call
 
-  - The intent response provides an array of cluster resources
-  - Take note of the cluster UUID under the metadata
+    - The intent response provides an array of cluster resources
+    - Take note of the cluster UUID under the metadata
 
   .. figure:: images/clusteruuid.png
 
