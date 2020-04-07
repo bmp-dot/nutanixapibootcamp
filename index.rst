@@ -6,6 +6,7 @@
   :name: _api_labs
   :hidden:
 
+  env_setup/env_setup
   api_cluster_list/api_cluster_list
   api_create_vm/api_create_vm
   api_vm_status/api_vm_status
@@ -144,7 +145,7 @@ Each cluster has a dedicated domain controller VM, **DC**, responsible for provi
 .. list-table::
    :widths: 25 35 40
    :header-rows: 1
-   
+
    * - Group
      - Username(s)
      - Password
