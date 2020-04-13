@@ -47,7 +47,7 @@ Using Postman
 
 #. The screenshot below highlights key areas that we’ll use in upcoming labs. These are the most important areas to be familiar with, although Postman has an enormous amount of functionality outside of “just” API requests.
 
-   .. figure:: image/postman_001.png
+   .. figure:: images/postman_001.png
 
 #. From 1 to 8, the highlighted sections are as follows.
 
@@ -69,10 +69,10 @@ Using Postman
         - Click the Postman settings icon (spanner icon near the top-right corner).
         - Select **Settings**.
 
-        .. image::  imagae/postman_ssl_001.png
+        .. image::  images/postman_ssl_001.png
 
         - Toggle **off** the setting labelled **SSL certification verification**.
 
-        .. image::  imagae/postman_ssl_002.png
+        .. image::  images/postman_ssl_002.png
 
         - Click the dialog’s **X** button to close.
