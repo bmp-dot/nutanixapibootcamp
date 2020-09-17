@@ -1,7 +1,7 @@
 .. _api_image_list:
 
 ----------------------
-4) API: List of Images
+API: List of Images
 ----------------------
 
 Overview
